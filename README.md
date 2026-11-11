@@ -1,37 +1,69 @@
-# Hi, I'm Daksh Gupta
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1321,50:1E293B,100:0EA5E9&height=210&section=header&text=Daksh%20Gupta&fontSize=56&fontColor=F8FAFC&animation=fadeIn&fontAlignY=38&desc=Security%20Engineering%20%E2%80%A2%20AI%20Tooling%20%E2%80%A2%20Real-Time%20Systems&descAlignY=62&descSize=17" alt="Daksh Gupta Header" width="100%" />
+</p>
 
-**Software Engineer · Application Security · AI Tooling & Real-Time Systems**
+<p align="center">
+  <a href="https://github.com/DakshG26">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=38BDF8&center=true&vCenter=true&width=680&lines=Application+Security+%26+Static+Analysis;AI-Powered+Developer+Tooling+%26+AST+Pipelines;24+bps+Neural+Speech+%26+Offline+P2P+Systems" alt="Typing Tagline" />
+  </a>
+</p>
 
-I build developer security tools, automated code-intelligence pipelines, and low-bandwidth / offline-first applications across Python, TypeScript, and Kotlin.
+<p align="center">
+  <a href="https://itantra-isro.vercel.app">
+    <img src="https://img.shields.io/badge/Live_Demo-itantra--isro.vercel.app-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" alt="iTantra Live Demo" />
+  </a>
+  <img src="https://img.shields.io/badge/ISRO-SIH26173-1E293B?style=for-the-badge&logo=rocket&logoColor=38BDF8" alt="ISRO SIH26173" />
+  <img src="https://img.shields.io/badge/Focus-AppSec_%C2%B7_AI_%C2%B7_P2P-0F172A?style=for-the-badge&logo=shield&logoColor=34D399" alt="Engineering Focus" />
+</p>
 
 ---
 
 ### What I Build
 
-- **Application Security & Static Analysis** — Non-destructive security auditing for modern web backends mapped to OWASP Top 10:2025 & CWE.
-- **Developer Tooling & AI Pipelines** — Combining AST analysis, semantic embeddings, and local open-weight LLMs to keep code and docs in sync.
-- **Low-Bandwidth & P2P Systems** — Neural semantic speech compression (`24 bps`) and offline-first peer-to-peer communication across Android and Web.
+- **Application Security & Static Analysis** — Non-destructive security auditing for Flask/FastAPI backends mapped to **OWASP Top 10:2025** & CWE ([`secaudit`](https://github.com/DakshG26/secaudit)).
+- **AI Developer Tooling** — Hybrid AST diffing, `all-MiniLM-L6-v2` embeddings, and local open-weight LLMs to catch documentation drift before merge ([`doc-drift`](https://github.com/DakshG26/doc-drift)).
+- **Low-Bandwidth & Offline-First Systems** — `24 bps` neural semantic speech compression and zero-internet P2P mesh communication across Web and Android ([`iTantra`](https://github.com/DakshG26/itantra-web)).
 
 ---
 
-### Featured Projects
+### Featured Systems
 
-| Project | Description | Stack |
-|---|---|---|
-| **[secaudit](https://github.com/DakshG26/secaudit)** | Authorized, non-destructive security auditor for Flask/FastAPI apps with 22 YAML rules, OWASP Top 10:2025 mapping, attack-chain correlation, and a React dashboard. | `Python` `TypeScript` `React` `OWASP` |
-| **[doc-drift](https://github.com/DakshG26/doc-drift)** | Automated PR documentation drift detector combining AST diffing, `all-MiniLM-L6-v2` embeddings, and local LLMs (Gemma / Qwen / DeepSeek) to pinpoint stale docs. | `Python` `AST` `Ollama` `GitHub Actions` |
-| **[itantra-web](https://github.com/DakshG26/itantra-web)** | *ISRO SIH26173* — 24 bps neural semantic speech transceiver achieving 2,666x bandwidth compression over WebRTC. ([Live Demo](https://itantra-isro.vercel.app)) | `React` `FastAPI` `WebRTC` `Faster-Whisper` |
-| **[itantra-android](https://github.com/DakshG26/itantra-android)** | Offline-first Android P2P transceiver with zero-touch UDP discovery, Bluetooth RFCOMM, and on-device Indic neural TTS. | `Kotlin` `Android` `P2P` `Offline-First` |
+<p align="center">
+  <a href="https://github.com/DakshG26/secaudit">
+    <img src="./assets/card-secaudit.svg" width="48%" alt="secaudit — Web Security Auditor" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/DakshG26/doc-drift">
+    <img src="./assets/card-doc-drift.svg" width="48%" alt="doc-drift — Documentation Drift Detector" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/DakshG26/itantra-web">
+    <img src="./assets/card-itantra-web.svg" width="48%" alt="itantra-web — 24 bps Speech Transceiver" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/DakshG26/itantra-android">
+    <img src="./assets/card-itantra-android.svg" width="48%" alt="itantra-android — Offline P2P Transceiver" />
+  </a>
+</p>
+
+---
+
+### Engineering Snapshot
+
+<p align="center">
+  <img src="./assets/languages-overview.svg" width="97%" alt="Codebase Footprint Across Flagship Repositories" />
+</p>
 
 ---
 
 ### Core Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,kotlin,js,react,fastapi,vite,androidstudio,docker,git,linux,bash&perline=6" alt="Core Tech Stack" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:1E293B,100:0D1321&height=110&section=footer" alt="Footer Wave" width="100%" />
+</p>
