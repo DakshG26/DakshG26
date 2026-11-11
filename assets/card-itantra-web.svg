@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="215" viewBox="0 0 440 215" role="img" aria-label="itantra-web">
+  <defs>
+    <linearGradient id="bg_card_itantra_web" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1321"/>
+      <stop offset="100%" stop-color="#11192C"/>
+    </linearGradient>
+    <linearGradient id="bar_card_itantra_web" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Shell -->
+  <rect x="0.5" y="0.5" width="439" height="214" rx="14" fill="url(#bg_card_itantra_web)" stroke="#243044" stroke-width="1"/>
+  <!-- Top Accent Stripe (clipped nicely via inset pill) -->
+  <rect x="20" y="1" width="400" height="3" rx="1.5" fill="url(#bar_card_itantra_web)" opacity="0.9"/>
+
+  <!-- Subtle Glow Orb -->
+  <circle cx="400" cy="36" r="56" fill="#34D399" opacity="0.06"/>
+
+  <!-- Repo Icon + Title -->
+  <circle cx="31" cy="36" r="5" fill="#34D399"/>
+  <text x="45" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC" letter-spacing="-0.3">itantra-web</text>
+
+  <!-- Category Pill -->
+  <rect x="300" y="23" width="116" height="22" rx="11" fill="#34D399" fill-opacity="0.14" stroke="#34D399" stroke-opacity="0.45" stroke-width="1"/>
+  <text x="358.2" y="37.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" fill="#34D399" letter-spacing="0.5">ISRO SIH26173</text>
+
+  <!-- Description (3 clean lines) -->
+  <text x="24" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#94A3B8">24 bps neural semantic speech transceiver web</text>
+  <text x="24" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#94A3B8">app achieving 2,666x bandwidth compression</text>
+  <text x="24" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#94A3B8">with 369 ms end-to-end WebRTC voice latency.</text>
+
+  <!-- Tech Tags -->
+  <rect x="24" y="136" width="58" height="24" rx="6" fill="#161F30" stroke="#263349" stroke-width="1"/><text x="53.0" y="152" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600" fill="#CBD5E1">React</text><rect x="90.0" y="136" width="73" height="24" rx="6" fill="#161F30" stroke="#263349" stroke-width="1"/><text x="126.6" y="152" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600" fill="#CBD5E1">FastAPI</text><rect x="171.2" y="136" width="66" height="24" rx="6" fill="#161F30" stroke="#263349" stroke-width="1"/><text x="204.0" y="152" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600" fill="#CBD5E1">WebRTC</text><rect x="244.79999999999998" y="136" width="73" height="24" rx="6" fill="#161F30" stroke="#263349" stroke-width="1"/><text x="281.4" y="152" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600" fill="#CBD5E1">Whisper</text>
+
+  <!-- Divider & Bottom Metric -->
+  <line x1="24" y1="176" x2="416" y2="176" stroke="#1E293B" stroke-width="1"/>
+  <text x="24" y="197" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="500" fill="#64748B">Live Demo · itantra-isro.vercel.app</text>
+  <text x="416" y="197" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#34D399">View Repo →</text>
+</svg>
