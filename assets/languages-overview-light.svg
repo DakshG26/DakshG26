@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="164" viewBox="0 0 880 164" role="img" aria-label="Codebase Language Distribution">
+  <defs>
+    <linearGradient id="lang_light_bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <clipPath id="bar_light_clip">
+      <rect x="28" y="64" width="824" height="12" rx="6"/>
+    </clipPath>
+    <clipPath id="lang_card_clip">
+      <rect x="0.5" y="0.5" width="879" height="163" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="879" height="163" rx="14" fill="url(#lang_light_bg)" stroke="#D0D7DE" stroke-width="1"/>
+  <g clip-path="url(#lang_card_clip)">
+    <rect x="0" y="0" width="880" height="4" fill="#0284C7" opacity="0.85"/>
+  </g>
+
+  <text x="28" y="39" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#0F172A">Codebase Footprint Across Flagship Repositories</text>
+  <text x="852" y="39" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" fill="#64748B">4 Core Repos · 736.3 KB Source</text>
+
+  <g clip-path="url(#bar_light_clip)">
+    <rect x="28.00" y="64" width="415.30" height="12" fill="#0284C7"/><rect x="443.30" y="64" width="223.30" height="12" fill="#4F46E5"/><rect x="666.60" y="64" width="90.64" height="12" fill="#D97706"/><rect x="757.24" y="64" width="71.69" height="12" fill="#7C3AED"/><rect x="828.93" y="64" width="23.07" height="12" fill="#059669"/>
+  </g>
+
+  <circle cx="33" cy="102" r="5" fill="#0284C7"/><text x="44" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Python</text><text x="98.8" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#64748B">50.4%</text><circle cx="203" cy="102" r="5" fill="#4F46E5"/><text x="214" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0F172A">TypeScript</text><text x="300.0" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#64748B">27.1%</text><circle cx="373" cy="102" r="5" fill="#D97706"/><text x="384" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0F172A">JavaScript</text><text x="470.0" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#64748B">11.0%</text><circle cx="543" cy="102" r="5" fill="#7C3AED"/><text x="554" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Kotlin</text><text x="608.8" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#64748B">8.7%</text><circle cx="713" cy="102" r="5" fill="#059669"/><text x="724" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#0F172A">CSS / Infra</text><text x="817.8" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#64748B">2.8%</text>
+
+  <line x1="28" y1="120" x2="852" y2="120" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="28" y="142" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="700" fill="#0284C7">4 Flagship Systems</text><text x="171.0" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#475569">· AppSec · AI · P2P</text><text x="322" y="142" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="700" fill="#0284C7">21 OWASP Rules</text><text x="435.0" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#475569">· AST + Live Probes</text><text x="600" y="142" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="700" fill="#0284C7">24 bps Codec</text><text x="698.0" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#475569">· 2,666x Compression</text>
+</svg>
