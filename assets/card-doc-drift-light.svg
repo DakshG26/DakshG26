@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="215" viewBox="0 0 440 215" role="img" aria-label="doc-drift">
+  <defs>
+    <linearGradient id="bg_card_doc_drift_light" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="bar_card_doc_drift_light" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <clipPath id="card_clip_card_doc_drift_light">
+      <rect x="0.5" y="0.5" width="439" height="214" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <!-- Card Shell -->
+  <rect x="0.5" y="0.5" width="439" height="214" rx="14" fill="url(#bg_card_doc_drift_light)" stroke="#D0D7DE" stroke-width="1"/>
+  <g clip-path="url(#card_clip_card_doc_drift_light)">
+    <!-- Top Accent Stripe -->
+    <rect x="0" y="0" width="440" height="4" fill="url(#bar_card_doc_drift_light)"/>
+    <!-- Subtle Pastel Glow Orb clipped inside card -->
+    <circle cx="406" cy="28" r="56" fill="#6366F1" opacity="0.07"/>
+  </g>
+
+  <!-- Repo Dot + Title -->
+  <circle cx="31" cy="36" r="5" fill="#4F46E5"/>
+  <text x="45" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0F172A" letter-spacing="-0.3">doc-drift</text>
+
+  <!-- Category Pill -->
+  <rect x="322" y="23" width="94" height="22" rx="11" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+  <text x="369.0" y="37.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" fill="#4338CA" letter-spacing="0.5">AI TOOLING</text>
+
+  <!-- Description -->
+  <text x="24" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569">Automated PR documentation drift detector</text>
+  <text x="24" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569">combining AST diffing, MiniLM embeddings, and</text>
+  <text x="24" y="114" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" fill="#475569">local Ollama LLMs to pinpoint stale docs.</text>
+
+  <!-- Tech Tags -->
+  <rect x="24" y="136" width="66" height="24" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/><text x="56.8" y="152" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600" fill="#334155">Python</text><rect x="97.6" y="136" width="54" height="24" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/><text x="124.6" y="152" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600" fill="#334155">AST</text><rect x="159.6" y="136" width="66" height="24" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/><text x="192.4" y="152" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600" fill="#334155">Ollama</text><rect x="233.2" y="136" width="58" height="24" rx="6" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/><text x="262.2" y="152" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600" fill="#334155">CI/CD</text>
+
+  <!-- Divider & Bottom Metric -->
+  <line x1="24" y1="176" x2="416" y2="176" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="24" y="197" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="500" fill="#64748B">Line-Exact Citations · GitHub Actions</text>
+  <text x="416" y="197" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#4F46E5">View Repo →</text>
+</svg>
