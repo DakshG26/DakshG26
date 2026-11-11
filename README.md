@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/DakshG26">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=38BDF8&center=true&vCenter=true&width=680&lines=Application+Security+%26+Static+Analysis;AI-Powered+Developer+Tooling+%26+AST+Pipelines;24+bps+Neural+Speech+%26+Offline+P2P+Systems" alt="Typing Tagline" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=0284C7&center=true&vCenter=true&width=680&lines=Application+Security+%26+Static+Analysis;AI-Powered+Developer+Tooling+%26+AST+Pipelines;24+bps+Neural+Speech+%26+Offline+P2P+Systems" alt="Typing Tagline" />
   </a>
 </p>
 
@@ -30,21 +30,21 @@
 
 <p align="center">
   <a href="https://github.com/DakshG26/secaudit">
-    <img src="./assets/card-secaudit.svg" width="48%" alt="secaudit — Web Security Auditor" />
+    <img src="./assets/card-secaudit-light.svg" width="415" alt="secaudit — Web Security Auditor" />
   </a>
   &nbsp;
   <a href="https://github.com/DakshG26/doc-drift">
-    <img src="./assets/card-doc-drift.svg" width="48%" alt="doc-drift — Documentation Drift Detector" />
+    <img src="./assets/card-doc-drift-light.svg" width="415" alt="doc-drift — Documentation Drift Detector" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/DakshG26/itantra-web">
-    <img src="./assets/card-itantra-web.svg" width="48%" alt="itantra-web — 24 bps Speech Transceiver" />
+    <img src="./assets/card-itantra-web-light.svg" width="415" alt="itantra-web — 24 bps Speech Transceiver" />
   </a>
   &nbsp;
   <a href="https://github.com/DakshG26/itantra-android">
-    <img src="./assets/card-itantra-android.svg" width="48%" alt="itantra-android — Offline P2P Transceiver" />
+    <img src="./assets/card-itantra-android-light.svg" width="415" alt="itantra-android — Offline P2P Transceiver" />
   </a>
 </p>
 
@@ -53,7 +53,7 @@
 ### Engineering Snapshot
 
 <p align="center">
-  <img src="./assets/languages-overview.svg" width="97%" alt="Codebase Footprint Across Flagship Repositories" />
+  <img src="./assets/languages-overview-light.svg" width="836" alt="Codebase Footprint Across Flagship Repositories" />
 </p>
 
 ---
@@ -61,7 +61,7 @@
 ### Core Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,ts,kotlin,js,react,fastapi,vite,androidstudio,docker,git,linux,bash&perline=6" alt="Core Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=python,ts,kotlin,js,react,fastapi,vite,androidstudio,docker,git,linux,bash&perline=6&theme=light" alt="Core Tech Stack" />
 </p>
 
 <p align="center">
